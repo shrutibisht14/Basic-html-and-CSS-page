@@ -1,0 +1,52 @@
+body {
+    background-color: #2c2c2c;
+    font-family: Georgia, serif;
+    color: #f0e6d6;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Center align all text content */
+}
+
+.favorite-artists-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.favorite-artist {
+    text-align: center;
+    width: 200px;
+    background-color: #3e3e3e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.favorite-artist img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.favorite-artist p {
+    color: #d4af37;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.favorite-song {
+    background-color: #3e3e3e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.listen-song {
+    border-radius: 12px;
+    width: calc(100% - 40px);
+    height: 352px;
+    border: 0;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
